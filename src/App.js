@@ -7,6 +7,7 @@ import { AsynchronousData } from './Rendering/AsynchronousData';
 
 function App() {
   return (
+    
     <div>
       <Parent />
       <ParentInput />
