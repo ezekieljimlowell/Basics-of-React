@@ -18,10 +18,12 @@ import { ArrayOfInputReference } from './RefereneceHooks/ArrayOfInputReference';
 import { LayoutHooks } from './LayoutAndImperative/LayoutHooks';
 import { EffectHooks } from './LayoutAndImperative/EffectHooks';
 import { ImperativeHandle } from './ImperativeHook/ImperativeHandle';
+import { RouterComponent } from './Router/RouterComponent';
 
 function App() {
   return (
     <div>
+      <RouterComponent />
       <ImperativeHandle />
       <EffectHooks />
       <LayoutHooks />
