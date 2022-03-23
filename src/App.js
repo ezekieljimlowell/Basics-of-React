@@ -13,10 +13,20 @@ import { WithoutReactMemo } from './ReactMemo/WithoutReactMemo';
 import { WithReactMemo } from './ReactMemo/WitReactMemo';
 import { WithCallback } from './UseCallbackHook/WithCallback';
 import { ContextParent } from './ContextHooks/ContextParent';
+import { InputRef } from './RefereneceHooks/InputRef';
+import { ArrayOfInputReference } from './RefereneceHooks/ArrayOfInputReference';
+import { LayoutHooks } from './LayoutAndImperative/LayoutHooks';
+import { EffectHooks } from './LayoutAndImperative/EffectHooks';
+import { ImperativeHandle } from './ImperativeHook/ImperativeHandle';
 
 function App() {
   return (
     <div>
+      <ImperativeHandle />
+      <EffectHooks />
+      <LayoutHooks />
+      <ArrayOfInputReference />
+      <InputRef />
       <ContextParent />
       <WithCallback />
       <WithReactMemo />
